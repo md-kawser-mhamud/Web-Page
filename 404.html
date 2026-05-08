@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 – Page Not Found | PomPom Hub</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Return to PomPom Hub." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://pompomhub.eu.cc/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Manrope:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #050810; --primary: #00f5d4; --text: #e8eaf0; --muted: #6b7280;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Manrope', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .container { max-width: 500px; }
+    .code {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 8rem;
+      line-height: 1;
+      background: linear-gradient(135deg, var(--primary), #ff6b35);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+      animation: pulse 3s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.7} }
+    h1 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    p { color: var(--muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 2rem; }
+    a {
+      display: inline-block;
+      padding: 0.75rem 1.75rem;
+      background: var(--primary);
+      color: var(--bg);
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: opacity 0.2s;
+      box-shadow: 0 0 30px rgba(0,245,212,0.35);
+    }
+    a:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="code">404</div>
+    <h1>Page Not Found</h1>
+    <p>The page you're looking for has gone missing. Let's get you back to the hub.</p>
+    <a href="/">← Back to PomPom Hub</a>
+  </div>
+</body>
+</html>
